@@ -438,6 +438,84 @@ a:hover {
   background-color: #ED03CC;
 }
 
+.contact-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+  
+  .contact-container__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-inner__info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: calc((100% - 4rem) / 2);
+  }
+  .contact-inner__info h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4D1B82;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .contact-info div i {
+    font-size: 1.5rem;
+    color: #711BE0;
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+  .contact-info div i:hover {
+    color: #ED03CC;
+  }
+  .contact-info div a {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .contact-info div a:hover {
+    color: #ED03CC;
+  }
+  
+  .form-control, .form-select {
+    border: solid 2px #4D1B82;
+    border-radius: 0;
+  }
+  
+  .form-floating > label, .form-select ~ label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4D1B82 !important;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: #06BCC1;
+    border-radius: 55px;
+    color: white;
+    font-size: 1rem;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .btn-custom:hover {
+    background-color: #ED03CC;
+    color: white;
+  }
+  
+  .contact-inner__map {
+    width: calc((100% - 4rem) / 2);
+  }
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .navigation__wrapper {
