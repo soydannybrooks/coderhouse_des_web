@@ -786,6 +786,32 @@ a:hover {
   .internal-content__button {
     width: 100%;
   }
+  .planes-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  .planes-container__inner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .planes-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+  }
+  .planes-grid__inner {
+    width: 100%;
+  }
+  .planes-grid__inner h2 {
+    font-size: 3rem;
+  }
+  .planes-grid__inner h3 {
+    font-size: 1.75rem;
+  }
+  .planes-grid__inner p {
+    font-size: 0.875rem;
+  }
   .contact-container {
     width: 100%;
     padding: 3rem 2rem;
