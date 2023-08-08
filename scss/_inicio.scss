@@ -1,0 +1,119 @@
+.main-hero-container {
+    width: $full-width;
+    height: 600px;
+    display: flex;
+    background-image: url(../multimedia/images/hero-bg.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $full-width;
+        height: 100%;
+        background-color: $bg-purple-25;
+        z-index: 1;
+    }
+}
+
+.main-hero__inner {
+    width: $box-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        line-height: 1.2em;
+        color: $white;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    p {
+        width: 790px;
+        font-size: 1.5rem;
+        color: $white;
+        text-align: center; 
+    }
+}
+
+.home-content-container {
+    width: $box-width;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+}
+
+.home-content__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content__text {
+    width: calc((100% - 3rem) / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+    h2 {
+        font-size: 2.25rem;
+        color: $violet;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p {
+        color: $purple;
+        font-size: 1.125rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.home-content__image {
+    width: calc((100% - 3rem) / 2);
+    filter: drop-shadow($shadow);
+}
+
+.home-content__button {
+    padding: 1rem 3rem;
+    background-color: $green;
+    @include border-radius (55px);
+    color: $white;
+    font-size: 1rem;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        background-color: $fucsia;
+        color: $white;
+    }
+}
+
+.home-content__image {
+    width: 576px;
+    height: 430px;
+    overflow: hidden;
+
+    img {
+        width: $full-width;
+        height: 100%;
+        object-fit: cover;
+    }
+}

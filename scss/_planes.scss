@@ -1,0 +1,107 @@
+.planes-container {
+    width: $box-width;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+
+.planes-container__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: $full-width;
+
+    h2 {
+        font-size: 3rem;
+        font-family: $montserrat;
+        font-weight: 400;
+        color: $purple;
+        text-align: center;
+        margin-bottom: 3rem;
+
+        span {
+            font-weight: 700;
+            color: $fucsia;
+        }
+    }
+}
+
+.planes-grid {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 6rem;
+    margin: 0 auto;
+}
+
+.planes-grid__inner {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    width: 452px;
+    padding: 6rem 3rem;
+    @include border-radius (25px);
+    box-shadow: $shadow;
+
+    h2 {
+        font-family: $montserrat;
+        font-weight: 700;
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    hr {
+        border-top: 5px solid;
+        width: 200px;
+        opacity: 1;
+        margin: 0;
+    }
+
+    &:nth-child(1) {
+        background: $green;
+
+        h2, h3, p , hr, .planes-inner__conditions {
+            color: $white;
+        }
+    }
+
+    &:nth-child(2) {
+        background: $yellow;
+
+        h2, h3, p , hr, .planes-inner__conditions {
+            color: $violet;
+        }
+    }
+
+    &:nth-child(3) {
+        background: $lila;
+
+        h2, h3, p , hr, .planes-inner__conditions {
+            color: $white;
+        }
+    }
+
+    &:nth-child(4) {
+        background: $pale-blue;
+
+        h2, h3, p , hr, .planes-inner__conditions {
+            color: $purple;
+        }
+    }
+}
+
+.planes-inner__conditions {
+    margin-top: 2.5rem;
+}

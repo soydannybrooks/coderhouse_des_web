@@ -1,0 +1,160 @@
+.internal-hero-container {
+    width: $full-width;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../multimedia/images/about-bg.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: $full-width;
+        height: 100%;
+        background-color: $bg-purple-35;
+        z-index: 1;
+    }
+}
+
+.internal-hero__inner {
+    width: $box-width;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.2em;
+        color: $white;
+    }
+}
+
+.internal-info__two-col {
+    width: $full-width;
+    background-color: $pale-blue;
+    padding: 6rem 0;
+}
+
+.internal-info-two-col__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $box-width;
+    margin: 0 auto;
+}
+
+.internal-col__image {
+    width: 540px;
+    box-shadow: $shadow;
+}
+
+.internal-col__image img {
+    width: $full-width;
+    height: 370px;
+    object-fit: cover;
+}
+
+.internal-col__info {
+    width: 540px;
+    background-color: $white;
+    padding: 6.25rem 3rem;
+    box-shadow: $shadow;
+    box-sizing: border-box;
+
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.internal-info_three-col {
+    width: $box-width;
+    margin: 0 auto;
+    padding: 6.25rem 0;
+}
+
+.internal-info-three-col__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    width: $full-width;
+}
+  
+.internal-col__plan-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: calc((100% - 6rem) / 3);
+    box-sizing: border-box;
+
+    img {
+        width: $full-width;
+        height: 480px;
+        object-fit: cover;
+    }
+
+    ul, p {
+        font-size: 1rem;
+        color: $purple;
+        height: 240px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    &:nth-child(1) h3 {
+        background-color: $green;
+        color: $white;
+    }
+
+    &:nth-child(2) h3 {
+        background-color: $yellow;
+        color: $violet;
+    }
+
+    &:nth-child(3) h3 {
+        background-color: $lila;
+        color: $white;
+    }
+}
+
+.internal-info__cta {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+
+    h3 {
+        font-size: 1.75rem;
+        text-align: center;
+        color: $purple;
+    }
+}
+
+.internal-content__button {
+    padding: 1rem 3rem;
+    background-color: $green;
+    @include border-radius (55px);
+    color: $white;
+    font-size: 1rem;
+    font-weight: 700;
+    align-self: center;
+    text-transform: uppercase;
+
+    &:hover {
+        color: $white;
+        background-color: $fucsia;
+    }
+}

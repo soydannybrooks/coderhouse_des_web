@@ -1,0 +1,84 @@
+.contact-container {
+    width: $box-width;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+
+.contact-container__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-inner__info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: calc((100% - 4rem) / 2);
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: $purple;
+    }
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    div {
+        i {
+            font-size: 1.5rem;
+            color: $violet;
+            margin-right: 1rem;
+            vertical-align: middle;
+
+            &:hover {
+                color: $fucsia;
+            }
+        }
+
+        a {
+            font-size: 1.125rem;
+            font-weight: 500;
+
+            &:hover {
+                color: $fucsia;
+            }
+        }
+    }
+}
+
+.form-control, .form-select {
+    border: solid 2px $purple;
+    @include border-radius (0);
+}
+
+.form-floating>label, .form-select~label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $purple !important;
+}
+
+.btn-custom {
+    width: $full-width;
+    padding: 1rem 3rem;
+    background-color: $green;
+    @include border-radius (55px);
+    color: $white;
+    font-size: 1rem;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        background-color: $fucsia;
+        color: $white;
+    }
+}
+
+.contact-inner__map {
+    width: calc((100% - 4rem) / 2);
+}

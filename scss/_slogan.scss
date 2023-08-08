@@ -1,0 +1,20 @@
+@import "variables";
+
+.slogan-container {
+    width: $full-width;
+    height: 200px;
+    background-color: $purple;
+    display: flex;
+    align-items: center;
+}
+
+.slogan-container__inner {
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+        font-size: 2rem;
+        color: $pale-blue;
+    }
+}

@@ -1,0 +1,285 @@
+@media (max-width: 767px) {
+    .navigation__wrapper {
+        height: unset;
+        width: $full-width;
+        padding: 1rem 2rem;
+    }
+
+    .navbar {
+        align-items: start;
+    }
+
+    button.navbar-toggler,
+    button.navbar-toggler.collapsed {
+        height: 48px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        gap: .5rem;
+        padding: 1rem 0;
+    }
+
+    .logo-container {
+        height: 80px;
+    }
+
+    .logo-container__inner {
+        width: $full-width;
+
+        img {
+            height: 60px;
+        }
+    }
+
+    .slogan-container__inner {
+        padding: 0 2rem;
+    }
+
+    .slogan-container__inner h3 {
+        font-size: 1.375rem;
+        line-height: 1.5em;
+    }
+
+    .footer-container {
+        width: $full-width;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    .footer__email {
+        order: 2;
+    }
+    
+    .footer__social-networks {
+        order: 3;
+    }
+    
+    .footer__copyright {
+        order: 4;
+    }
+
+    .main-hero-container {
+        width: $full-width;
+        height: 400px;
+        background-image: url(../multimedia/images/hero-bg-mobile.jpg);
+        background-position: center;
+
+        &:after {
+            background-color: $bg-purple-50;
+        }
+    }
+
+    .main-hero__inner {
+        width: $full-width;
+        padding: 0 2rem;
+        
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            width: $full-width;
+            font-size: 1em;
+        }
+    }
+
+    .home-content-container {
+        width: $full-width;
+        padding: 4rem 2rem;
+    }
+
+    .home-content__inner {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .home-content__text,
+    .home-content__image {
+        width: $full-width;
+        gap: 1rem;
+    }
+
+    .home-content__text h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .home-content__text p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .home-content__button {
+        width: $full-width;
+    }
+
+    .home-content__image {
+        width: $full-width;
+        height: 274px;
+        overflow: hidden;
+    }
+
+    .internal-hero-container {
+        background-image: url(../multimedia/images/about-bg-mobile.jpg);
+    }
+
+    .internal-hero__inner {
+        width: $full-width;
+
+        h1 {
+            font-size: 2.75rem;
+        }
+    }
+
+    .internal-info__two-col {
+        padding: 4rem 2rem;
+    }
+
+    .internal-info-two-col__inner {
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .internal-col__image {
+        width: $full-width;
+    }
+    
+    .internal-col__image img {
+        width: $full-width;
+        height: 210px;
+        object-position: top center;
+    }
+    
+    .internal-col__info {
+        width: $full-width;
+        padding: 3rem 2rem;
+    
+        p {
+            font-size: 1.125rem;
+            margin-bottom: 0;
+        }
+    }
+
+    .internal-info_three-col {
+        width: $full-width;
+        padding: 4rem 2rem;
+    }
+
+    .internal-info-three-col__inner {
+        flex-direction: column;
+        gap: 5rem;
+        width: $full-width;
+    }
+
+    .internal-col__plan-info {
+        width: 100%;
+        box-sizing: border-box;
+
+        img {
+            height: auto;
+        }
+        
+        ul, p {
+            height: auto;
+        }
+    }
+
+    .internal-info__cta {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 5rem;
+        text-align: center;
+    
+        h3 {
+            font-size: 1.25rem;
+            line-height: 1.5em;
+        }
+    }
+    
+    .internal-content__button {
+        width: $full-width;
+    }
+
+    .planes-container {
+        width: $full-width;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+    }
+    
+    .planes-container__inner h2 {   
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .planes-grid {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 4rem;
+    }
+    
+    .planes-grid__inner {
+        width: $full-width;
+        
+        h2 {
+            font-size: 3rem;
+        }
+    
+        h3 {
+            font-size: 1.75rem;
+        }
+    
+        p {
+            font-size: .875rem;
+        }
+    }
+
+    .contact-container {
+        width: $full-width;
+        padding: 3rem 2rem;
+    }
+    
+    .contact-container__inner {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .contact-inner__info {
+        width: $full-width;
+    
+        h3 {
+            font-size: 1.375rem;
+        }
+    }
+    
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    
+        div {
+            i {
+                font-size: 1.25rem;
+    
+                &:hover {
+                    color: $fucsia;
+                }
+            }
+    
+            a {
+                font-size: 1rem;
+                font-weight: 500;
+    
+                &:hover {
+                    color: $fucsia;
+                }
+            }
+        }
+    }
+    
+    .contact-inner__map {
+        width: 100%;
+        height: 350px;
+    }
+}
