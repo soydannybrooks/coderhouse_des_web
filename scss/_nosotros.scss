@@ -147,7 +147,6 @@
     align-self: center;
 
     &:hover {
-        color: $white;
-        background-color: $fucsia;
+        @include button($white, $fucsia);
     }
 }

@@ -5,6 +5,12 @@
     border-radius: $radio;
 }
 
+@mixin reset-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 @mixin button ($bg-color, $color) {
     background-color: $bg-color;
     color: $color;

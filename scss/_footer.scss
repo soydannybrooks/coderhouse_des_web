@@ -21,9 +21,7 @@
 .footer__social-networks ul {
     display: flex;
     gap: 2rem;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    @include reset-list;
 
     li {
         font-size: 1.25rem; 
