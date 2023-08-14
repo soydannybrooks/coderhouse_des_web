@@ -91,18 +91,11 @@
 
 .home-content__button {
     padding: 1rem 3rem;
-    background-color: $green;
     @include border-radius (55px);
-    color: $white;
-    font-size: 1rem;
-    line-height: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
+    @include button($green, $white);
 
     &:hover {
-        background-color: $fucsia;
-        color: $white;
+        @include button($fucsia, $white);
     }
 }
 

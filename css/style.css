@@ -6,22 +6,13 @@
 /* Importing Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -105,11 +96,11 @@ a:hover {
 
 .navigation__contact-button {
   padding: 1rem 2.5rem;
-  background-color: #06BCC1;
   -webkit-border-radius: 55px;
   -moz-boder-radius: 55px;
   -ms-border-radius: 55px;
   border-radius: 55px;
+  background-color: #06BCC1;
   color: white;
   font-size: 1rem;
   line-height: 1em;
@@ -119,10 +110,18 @@ a:hover {
 .navigation__contact-button:hover {
   background-color: #ED03CC;
   color: white;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .navigation__contact-button.button__active {
   background-color: #ED03CC;
   color: white;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .footer-container {
@@ -282,21 +281,24 @@ a:hover {
 
 .home-content__button {
   padding: 1rem 3rem;
-  background-color: #06BCC1;
   -webkit-border-radius: 55px;
   -moz-boder-radius: 55px;
   -ms-border-radius: 55px;
   border-radius: 55px;
+  background-color: #06BCC1;
   color: white;
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
 }
 .home-content__button:hover {
   background-color: #ED03CC;
   color: white;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .home-content__image {
@@ -447,16 +449,17 @@ a:hover {
 
 .internal-content__button {
   padding: 1rem 3rem;
-  background-color: #06BCC1;
   -webkit-border-radius: 55px;
   -moz-boder-radius: 55px;
   -ms-border-radius: 55px;
   border-radius: 55px;
+  background-color: #06BCC1;
   color: white;
   font-size: 1rem;
+  line-height: 1em;
   font-weight: 700;
-  align-self: center;
   text-transform: uppercase;
+  align-self: center;
 }
 .internal-content__button:hover {
   color: white;

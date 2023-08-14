@@ -61,21 +61,14 @@
 
 .navigation__contact-button {
     padding: 1rem 2.5rem;
-    background-color: $green;
     @include border-radius (55px);
-    color: $white;
-    font-size: 1rem;
-    line-height: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
+    @include button($green, $white);
 
     &:hover {
-        background-color: $fucsia;
-        color: $white;
+        @include button($fucsia, $white);
     }
 
     &.button__active {
-        background-color: $fucsia;
-        color: $white;
+        @include button($fucsia, $white);
     }
 }
