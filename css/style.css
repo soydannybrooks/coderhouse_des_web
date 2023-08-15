@@ -105,6 +105,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 .navigation__contact-button:hover {
@@ -113,6 +114,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 .navigation__contact-button.button__active {
@@ -121,6 +123,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -290,6 +293,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 .home-content__button:hover {
@@ -298,6 +302,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -458,12 +463,18 @@ a:hover {
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
+  text-align: center;
   text-transform: uppercase;
   align-self: center;
 }
 .internal-content__button:hover {
-  color: white;
-  background-color: #ED03CC;
+  background-color: white;
+  color: #ED03CC;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .planes-container {
@@ -625,21 +636,26 @@ a:hover {
 .btn-custom {
   width: 100%;
   padding: 1rem 3rem;
-  background-color: #06BCC1;
   -webkit-border-radius: 55px;
   -moz-boder-radius: 55px;
   -ms-border-radius: 55px;
   border-radius: 55px;
+  background-color: #06BCC1;
   color: white;
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 .btn-custom:hover {
   background-color: #ED03CC;
   color: white;
+  font-size: 1rem;
+  line-height: 1em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .contact-inner__map {
