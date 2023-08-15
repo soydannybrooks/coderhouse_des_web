@@ -147,6 +147,6 @@
     align-self: center;
 
     &:hover {
-        @include button($white, $fucsia);
+        @include button($fucsia, $white);
     }
 }

@@ -468,8 +468,8 @@ a:hover {
   align-self: center;
 }
 .internal-content__button:hover {
-  background-color: white;
-  color: #ED03CC;
+  background-color: #ED03CC;
+  color: white;
   font-size: 1rem;
   line-height: 1em;
   font-weight: 700;
